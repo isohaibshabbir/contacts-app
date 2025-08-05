@@ -1,0 +1,25 @@
+git init (initilize git in a repo, once each repo)
+
+git clone (create a copy of a repo)
+
+git status (working tree - currently uncommeted items)
+
+git add . (add working items for commit)
+
+git commit -m "message" (create a commit of working tree for later use)
+
+git push (move all the local commits to git server...)
+
+git fetch (Pull information of the repo)
+
+git checkout <branch-name> (checkout to a available branch)
+git checkout -b <branch-name> (checkout to a fresh branch)
+
+git pull (pulls the latest changes of the branch)
+
+git merge <branch-name> (merge <branch-name> code to current branch)
+
+git Server functions: 
+
+generate Pull request
+Merge PR

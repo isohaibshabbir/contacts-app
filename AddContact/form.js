@@ -12,6 +12,7 @@ function addContact(e) {
     const name = nameInput.value;
     const contactsListJson = localStorage.getItem("myContacts") || '[]';
     console.log(contactsListJson);
+    console.log(contactsListJson);
     const contactListJs = JSON.parse(contactsListJson);
     console.log(contactListJs);
     const newContact = { name: name, number: '123456789', initials: 'AB' }
